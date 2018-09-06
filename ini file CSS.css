@@ -1,0 +1,21 @@
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Calibri;
+    background-image: url("https://img.freepik.com/free-vector/bright-background-with-dots_1055-3132.jpg?size=338&ext=jpg");
+   
+    background-size: auto;
+}
+        table, th, td {
+            margin: 20px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            color: white;
+            background-color: black;
+        }
