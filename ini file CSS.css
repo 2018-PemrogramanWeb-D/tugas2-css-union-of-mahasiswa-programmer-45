@@ -6,12 +6,16 @@ body {
     background-size: auto;
 }
 
+
 table, th, td {
     margin: 20px;
     border: 1px solid black;
     border-collapse: collapse;
 }
-
+a{
+    text-decoration:none;
+    color:black;
+}
 th, td {
     padding: 10px;
     text-align: center;
@@ -59,4 +63,5 @@ th {
     margin-top: 20px;
     padding: 20px;
     background-color: white;
+    margin-top: 200px
 }
