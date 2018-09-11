@@ -6,6 +6,20 @@ body {
     background-size: auto;
 }
 
+table img {
+    width: 300px;
+    height: 100px;
+}
+
+img.percent10 {
+    width: 10%;
+    height: 10%;
+}
+
+img.percent30 {
+    width: 30%;
+    height: 30%;
+}
 
 table, th, td {
     margin: 20px;
@@ -14,7 +28,7 @@ table, th, td {
 }
 a{
     text-decoration:none;
-    color:black;
+    color:white;
 }
 th, td {
     padding: 10px;
@@ -27,22 +41,29 @@ th {
 }
 
 .header {
-    top: 0;
+    right: 0px;
+    top: 0px;
     font-size: 20px;
     position: fixed;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    background-color: gray;
+    background-color: #00e68a;
 }
 
 .navbar {
-    top: 150px;
+    top: 110px;
+    right: 0px;
     position: fixed;
     width: 100%;
-    background-color: darkslateblue;
+    background-color: ghostwhite;
     overflow: hidden;
 }
+
+    .navbar img{
+        width: 200px;
+        height:75px;
+    }
 
     .navbar a {
         float: left;
@@ -55,13 +76,13 @@ th {
     }
 
         .navbar a:hover, navbar a:active {
-            background-color: cadetblue;
-            color: black;
+            background-color: #00e68a;
+            color: white;
         }
 
 .content {
-    margin-top: 20px;
+
     padding: 20px;
     background-color: white;
-    margin-top: 200px
+    margin-top: 250px
 }
